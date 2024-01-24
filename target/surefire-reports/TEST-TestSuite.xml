@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="606.931" tests="37" errors="0" skipped="0" failures="14">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Selenium_WS\SalesforceProjectAutomation\target\test-classes;C:\Selenium_WS\SalesforceProjectAutomation\target\classes;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sudha\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\sudha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sudha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sudha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sudha\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sudha\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sudha\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\sudha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\sudha\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\sudha\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\sudha\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\sudha\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\sudha\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sudha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sudha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sudha\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sudha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\sudha\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\sudha\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\sudha\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sudha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sudha\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\sudha\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\sudha\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sudha\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sudha\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sudha\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sudha\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sudha\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\sudha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sudha\AppData\Local\Temp\surefire17777901022108600143\surefirebooter-20240123114624648_3.jar C:\Users\sudha\AppData\Local\Temp\surefire17777901022108600143 2024-01-23T11-46-24_463-jvmRun1 surefire-20240123114624648_1tmp surefire_0-20240123114624648_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Selenium_WS\SalesforceProjectAutomation\target\test-classes;C:\Selenium_WS\SalesforceProjectAutomation\target\classes;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sudha\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\sudha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sudha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sudha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sudha\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sudha\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sudha\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\sudha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\sudha\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sudha\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\sudha\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\sudha\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\sudha\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\sudha\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\sudha\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\sudha\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\sudha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\sudha\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sudha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sudha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sudha\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sudha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\sudha\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\sudha\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sudha\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\sudha\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\sudha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sudha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sudha\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\sudha\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\sudha\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sudha\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sudha\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sudha\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sudha\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sudha\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sudha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Users\sudha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Selenium_WS\SalesforceProjectAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sudha\AppData\Local\Temp\surefire17777901022108600143\surefirebooter-20240123114624648_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="user.name" value="sudha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="localRepository" value="C:\Users\sudha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\sudha\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Selenium_WS\SalesforceProjectAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\sudha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sudha/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/sudha/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Users\sudha\AppData\Local\Android\Sdk\build-tools;C:\Users\sudha\AppData\Local\Android\Sdk\platforms;C:\Users\sudha\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Mavan\Maven\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin;C:\Users\sudha\AppData\Local\Microsoft\WindowsApps;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\Users\sudha\AppData\Roaming\npm;C:\Users\sudha\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="SalesforceTestCase5" classname="com.automation.tests.scripts.SalesforceProjectUserMenuDropDown" time="1.847">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a7a70460b3e2b9a45642a6b907dde108, findElement {using=name, value=username}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60086}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60086/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a7a70460b3e2b9a45642a6b907dde108" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7a70460b3e2b9a45642a6b907dde108, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60086}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60086/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7a70460b3e2b9a45642a6b907dde108
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.SalesforceProjectUserMenuDropDown.SalesforceTestCase5(SalesforceProjectUserMenuDropDown.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:46:28,261 DEBUG InternalLoggerFactory.java:76 - Using Log4J2 as the default logging framework
+2024-01-23 11:46:28,274 DEBUG ResourceLeakDetector.java:129 - -Dio.netty.leakDetection.level: simple
+2024-01-23 11:46:28,274 DEBUG ResourceLeakDetector.java:130 - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-23 11:46:28,284 DEBUG ResourceLeakDetectorFactory.java:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38b972d7
+2024-01-23 11:46:28,312 DEBUG PlatformDependent0.java:497 - -Dio.netty.noUnsafe: false
+2024-01-23 11:46:28,313 DEBUG PlatformDependent0.java:1001 - Java version: 17
+2024-01-23 11:46:28,315 DEBUG PlatformDependent0.java:137 - sun.misc.Unsafe.theUnsafe: available
+2024-01-23 11:46:28,316 DEBUG PlatformDependent0.java:161 - sun.misc.Unsafe.copyMemory: available
+2024-01-23 11:46:28,317 DEBUG PlatformDependent0.java:193 - sun.misc.Unsafe.storeFence: available
+2024-01-23 11:46:28,318 DEBUG PlatformDependent0.java:236 - java.nio.Buffer.address: available
+2024-01-23 11:46:28,319 DEBUG PlatformDependent0.java:321 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-23 11:46:28,319 DEBUG PlatformDependent0.java:386 - java.nio.Bits.unaligned: available, true
+2024-01-23 11:46:28,321 DEBUG PlatformDependent0.java:453 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5f9b2141
+2024-01-23 11:46:28,324 DEBUG PlatformDependent0.java:483 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2024-01-23 11:46:28,324 DEBUG PlatformDependent.java:1159 - sun.misc.Unsafe: available
+2024-01-23 11:46:28,325 DEBUG PlatformDependent.java:1270 - maxDirectMemory: 2055208960 bytes (maybe)
+2024-01-23 11:46:28,325 DEBUG PlatformDependent.java:1289 - -Dio.netty.tmpdir: C:\Users\sudha\AppData\Local\Temp (java.io.tmpdir)
+2024-01-23 11:46:28,325 DEBUG PlatformDependent.java:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-23 11:46:28,326 DEBUG PlatformDependent.java:1119 - Platform: Windows
+2024-01-23 11:46:28,327 DEBUG PlatformDependent.java:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-23 11:46:28,327 DEBUG PlatformDependent.java:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-23 11:46:28,328 DEBUG CleanerJava9.java:71 - java.nio.ByteBuffer.cleaner(): available
+2024-01-23 11:46:28,329 DEBUG PlatformDependent.java:205 - -Dio.netty.noPreferDirect: false
+2024-01-23 11:46:28,336 DEBUG PlatformDependent.java:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-23 11:46:28,365 DEBUG InternalThreadLocalMap.java:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-23 11:46:28,366 DEBUG InternalThreadLocalMap.java:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-23 11:46:28,560 DEBUG JdkSslContext.java:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-23 11:46:28,561 DEBUG JdkSslContext.java:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-23 11:46:28,573 DEBUG GlobalEventExecutor.java:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-23 11:46:28,587 DEBUG MultithreadEventLoopGroup.java:44 - -Dio.netty.eventLoopThreads: 16
+2024-01-23 11:46:28,598 DEBUG NioEventLoop.java:110 - -Dio.netty.noKeySetOptimization: false
+2024-01-23 11:46:28,598 DEBUG NioEventLoop.java:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-23 11:46:28,656 DEBUG PooledByteBufAllocator.java:157 - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-23 11:46:28,657 DEBUG PooledByteBufAllocator.java:158 - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-23 11:46:28,657 DEBUG PooledByteBufAllocator.java:160 - -Dio.netty.allocator.pageSize: 8192
+2024-01-23 11:46:28,659 DEBUG PooledByteBufAllocator.java:165 - -Dio.netty.allocator.maxOrder: 9
+2024-01-23 11:46:28,659 DEBUG PooledByteBufAllocator.java:169 - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-23 11:46:28,659 DEBUG PooledByteBufAllocator.java:170 - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-23 11:46:28,659 DEBUG PooledByteBufAllocator.java:171 - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-23 11:46:28,660 DEBUG PooledByteBufAllocator.java:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-23 11:46:28,660 DEBUG PooledByteBufAllocator.java:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-23 11:46:28,660 DEBUG PooledByteBufAllocator.java:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-23 11:46:28,662 DEBUG PooledByteBufAllocator.java:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-23 11:46:28,662 DEBUG PooledByteBufAllocator.java:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-23 11:46:28,671 DEBUG ByteBufUtil.java:89 - -Dio.netty.allocator.type: pooled
+2024-01-23 11:46:28,671 DEBUG ByteBufUtil.java:98 - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-23 11:46:28,671 DEBUG ByteBufUtil.java:101 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-23 11:46:29,010 DEBUG DefaultChannelId.java:79 - -Dio.netty.processId: 38364 (auto-detected)
+2024-01-23 11:46:29,012 DEBUG NetUtil.java:148 - -Djava.net.preferIPv4Stack: false
+2024-01-23 11:46:29,013 DEBUG NetUtil.java:149 - -Djava.net.preferIPv6Addresses: false
+2024-01-23 11:46:29,021 DEBUG NetUtilInitializations.java:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-23 11:46:29,023 DEBUG NetUtil.java:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-23 11:46:29,040 DEBUG DefaultChannelId.java:101 - -Dio.netty.machineId: 50:c2:e8:ff:fe:95:36:6f (auto-detected)
+2024-01-23 11:46:29,084 DEBUG AbstractByteBuf.java:63 - -Dio.netty.buffer.checkAccessible: true
+2024-01-23 11:46:29,086 DEBUG AbstractByteBuf.java:64 - -Dio.netty.buffer.checkBounds: true
+2024-01-23 11:46:29,086 DEBUG ResourceLeakDetectorFactory.java:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5e4ab741
+2024-01-23 11:46:29,111 DEBUG Recycler.java:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-23 11:46:29,111 DEBUG Recycler.java:97 - -Dio.netty.recycler.ratio: 8
+2024-01-23 11:46:29,111 DEBUG Recycler.java:98 - -Dio.netty.recycler.chunkSize: 32
+2024-01-23 11:46:29,112 DEBUG Recycler.java:99 - -Dio.netty.recycler.blocking: false
+2024-01-23 11:46:29,112 DEBUG Recycler.java:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-23 11:46:30,877 DEBUG Brotli.java:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-23 11:46:30,977 DEBUG ThreadLocalRandom.java:214 - -Dio.netty.initialSeedUniquifier: 0xf730690aa490576f
+2024-01-23 11:46:31,047 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:46:31,825 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:46:31,831 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase5Started******************
+2024-01-23 11:46:33,612 INFO  BaseTest.java:88 - Chrome driver is launched
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 23, 2024 11:46:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+Jan 23, 2024 11:46:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase6" classname="com.automation.tests.scripts.SalesforceProjectUserMenuDropDown" time="14.464">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;0D5Hs0000BZMsX9&apos;]/div/div/div/div/span/span/a[contains(@id,&apos;hoverItem&apos;)]&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [83d4b35abfe3d85f2bb120001a1ab98e, findElement {using=xpath, value=//div[@id=&apos;0D5Hs0000BZMsX9&apos;]/div/div/div/div/span/span/a[contains(@id,&apos;hoverItem&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60103/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 83d4b35abfe3d85f2bb120001a1ab98e" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='0D5Hs0000BZMsX9']/div/div/div/div/span/span/a[contains(@id,'hoverItem')]"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83d4b35abfe3d85f2bb120001a1ab98e, findElement {using=xpath, value=//div[@id='0D5Hs0000BZMsX9']/div/div/div/div/span/span/a[contains(@id,'hoverItem')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60103/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83d4b35abfe3d85f2bb120001a1ab98e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.SalesforceProjectUserMenuDropDown.SalesforceTestCase6(SalesforceProjectUserMenuDropDown.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:46:34,945 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:46:35,773 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:46:35,774 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase6Started******************
+2024-01-23 11:46:35,849 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:46:36,087 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:46:36,149 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:46:36,328 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:46:38,697 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:46:44,334 INFO  BaseTest.java:139 - UserMenu.DropDown button is clicked
+2024-01-23 11:46:47,367 INFO  BaseTest.java:139 - MyProfile.Option button is clicked
+2024-01-23 11:46:47,499 INFO  BaseTest.java:139 - ContactEdit.button button is clicked
+2024-01-23 11:46:48,083 INFO  BaseTest.java:171 - Switched toFrameElement
+2024-01-23 11:46:48,264 INFO  BaseTest.java:109 - About.tabis waited
+2024-01-23 11:46:48,813 INFO  BaseTest.java:139 - About.tab button is clicked
+2024-01-23 11:46:48,883 INFO  BaseTest.java:151 - data is cleared in the LastName.textbox
+2024-01-23 11:46:49,056 INFO  BaseTest.java:127 - data is entered in the LastName.textbox
+2024-01-23 11:46:50,233 INFO  BaseTest.java:139 - SaveAll.button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:46:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase7" classname="com.automation.tests.scripts.SalesforceProjectUserMenuDropDown" time="11.564">
+    <failure message="stale element reference: stale element not found&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ff438e5f21b3cea425d69ba72af77c8b, findChildElements {id=0BD1AB13CD3C1DAD9B4FA3DB00406BF4_element_126, using=tag name, value=option}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60159/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff438e5f21b3cea425d69ba72af77c8b" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff438e5f21b3cea425d69ba72af77c8b, findChildElements {id=0BD1AB13CD3C1DAD9B4FA3DB00406BF4_element_126, using=tag name, value=option}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60159/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff438e5f21b3cea425d69ba72af77c8b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.support.ui.Select.getOptions(Select.java:76)
+	at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:94)
+	at com.automation.tests.base.BaseTest.selectFromDropdownByVisibleText(BaseTest.java:237)
+	at com.automation.tests.scripts.SalesforceProjectUserMenuDropDown.SalesforceTestCase7(SalesforceProjectUserMenuDropDown.java:162)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:46:51,797 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:46:52,852 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:46:52,854 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase7Started******************
+2024-01-23 11:46:52,897 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:46:53,017 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:46:53,055 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:46:53,139 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:46:59,540 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:46:59,618 INFO  BaseTest.java:139 - UserMenu.DropDown button is clicked
+2024-01-23 11:47:00,794 INFO  BaseTest.java:139 - MySettings.Option button is clicked
+2024-01-23 11:47:00,905 INFO  BaseTest.java:139 - Personal.link button is clicked
+2024-01-23 11:47:01,390 INFO  BaseTest.java:139 - LoginHistory.link button is clicked
+2024-01-23 11:47:02,212 INFO  BaseTest.java:139 - DownloadLoginHistory.link button is clicked
+2024-01-23 11:47:02,788 INFO  BaseTest.java:139 - DisplayandLayout_link button is clicked
+2024-01-23 11:47:03,240 INFO  BaseTest.java:139 - CustomizeMyTab_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:46:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase8" classname="com.automation.tests.scripts.SalesforceProjectUserMenuDropDown" time="7.857">
+    <system-out><![CDATA[2024-01-23 11:47:06,815 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:47:07,909 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:47:07,912 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase8Started******************
+2024-01-23 11:47:07,948 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:47:08,083 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:47:08,140 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:47:08,238 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:47:11,224 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:47:13,763 INFO  BaseTest.java:139 - UserMenu.DropDown button is clicked
+2024-01-23 11:47:14,637 INFO  BaseTest.java:139 - DeveloperConsole_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:47:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase9" classname="com.automation.tests.scripts.SalesforceProjectUserMenuDropDown" time="8.942">
+    <system-out><![CDATA[2024-01-23 11:47:17,361 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:47:18,098 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:47:18,100 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase9Started******************
+2024-01-23 11:47:18,155 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:47:18,317 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:47:18,757 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:47:18,904 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:47:21,313 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:47:26,622 INFO  BaseTest.java:139 - UserMenu.DropDown button is clicked
+2024-01-23 11:47:27,038 INFO  BaseTest.java:139 - Logout_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:47:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase15" classname="com.automation.tests.scripts.SalesforceProjectCreateOpty" time="8.814">
+    <failure message="Lists differ at element [0]: All Opportunities != [[[[ChromeDriver: chrome on windows (8538ba0ede673dea0b1a1e82bd30d4aa)] -&gt; id: fcf]] -&gt; tag name: option] expected [All Opportunities] but found [[[[[ChromeDriver: chrome on windows (8538ba0ede673dea0b1a1e82bd30d4aa)] -&gt; id: fcf]] -&gt; tag name: option]]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Lists differ at element [0]: All Opportunities != [[[[ChromeDriver: chrome on windows (8538ba0ede673dea0b1a1e82bd30d4aa)] -> id: fcf]] -> tag name: option] expected [All Opportunities] but found [[[[[ChromeDriver: chrome on windows (8538ba0ede673dea0b1a1e82bd30d4aa)] -> id: fcf]] -> tag name: option]]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:1643)
+	at org.testng.Assert.assertEquals(Assert.java:1605)
+	at com.automation.tests.scripts.SalesforceProjectCreateOpty.SalesforceTestCase15(SalesforceProjectCreateOpty.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:47:28,402 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:47:29,553 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:47:29,558 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase15Started******************
+2024-01-23 11:47:29,608 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:47:29,823 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:47:30,001 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:47:30,096 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:47:36,550 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:47:37,563 INFO  BaseTest.java:139 - Opportunities_tab button is clicked
+2024-01-23 11:47:37,667 INFO  BaseTest.java:139 - View_dropdown button is clicked
+All Opportunities
+Closing Next Month
+Closing This Month
+My Opportunities
+New Last Week
+New This Week
+Opportunity Pipeline
+Private
+Recently Viewed Opportunities
+Won
+All options are displayed
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:47:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase16" classname="com.automation.tests.scripts.SalesforceProjectCreateOpty" time="9.21">
+    <system-out><![CDATA[2024-01-23 11:47:40,192 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:47:41,649 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:47:41,649 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase16Started******************
+2024-01-23 11:47:41,698 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:47:41,835 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:47:41,874 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:47:41,945 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:47:44,093 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:47:47,935 INFO  BaseTest.java:139 - Opportunities_tab button is clicked
+2024-01-23 11:47:48,953 INFO  BaseTest.java:139 - New_button button is clicked
+2024-01-23 11:47:49,035 INFO  BaseTest.java:127 - data is entered in the OpportunityName_box
+2024-01-23 11:47:49,120 INFO  BaseTest.java:127 - data is entered in the AccountName_box
+2024-01-23 11:47:49,181 INFO  BaseTest.java:139 - CloseDate_calender button is clicked
+2024-01-23 11:47:49,206 INFO  BaseTest.java:109 - Calenderis waited
+2024-01-23 11:47:49,267 INFO  BaseTest.java:139 - todayDate button is clicked
+2024-01-23 11:47:49,330 INFO  BaseTest.java:139 - StageLabel button is clicked
+2024-01-23 11:47:49,408 INFO  BaseTest.java:139 - Stage_dropdown button is clicked
+Qualification is not selected
+2024-01-23 11:47:49,782 INFO  BaseTest.java:127 - data is entered in the Probability_box
+2024-01-23 11:47:49,861 INFO  BaseTest.java:139 - LeadSource_dropdown button is clicked
+Phone Inquiry is not selected
+2024-01-23 11:47:50,194 INFO  BaseTest.java:127 - data is entered in the PrimaryCampaign_box
+2024-01-23 11:47:50,859 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:47:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase17" classname="com.automation.tests.scripts.SalesforceProjectCreateOpty" time="9.292">
+    <system-out><![CDATA[2024-01-23 11:47:53,619 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:47:54,818 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:47:54,818 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase17Started******************
+2024-01-23 11:47:54,859 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:47:54,978 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:47:55,022 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:47:55,100 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:48:02,333 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:48:03,502 INFO  BaseTest.java:139 - Opportunities_tab button is clicked
+2024-01-23 11:48:04,111 INFO  BaseTest.java:139 - OpportunityPipeline_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:47:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase18" classname="com.automation.tests.scripts.SalesforceProjectCreateOpty" time="11.734">
+    <system-out><![CDATA[2024-01-23 11:48:06,518 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:48:07,225 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:48:07,226 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase18Started******************
+2024-01-23 11:48:07,279 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:48:07,408 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:48:07,448 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:48:07,810 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:48:10,594 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:48:17,986 INFO  BaseTest.java:139 - Opportunities_tab button is clicked
+2024-01-23 11:48:18,960 INFO  BaseTest.java:139 - StuckOpportunities_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:48:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase19" classname="com.automation.tests.scripts.SalesforceProjectCreateOpty" time="7.882">
+    <system-out><![CDATA[2024-01-23 11:48:21,781 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:48:22,762 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:48:22,763 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase19Started******************
+2024-01-23 11:48:22,795 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:48:22,923 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:48:22,965 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:48:23,293 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:48:25,665 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:48:29,473 INFO  BaseTest.java:139 - Opportunities_tab button is clicked
+2024-01-23 11:48:29,556 INFO  BaseTest.java:139 - Interval_dropdown button is clicked
+Next FQ is not selected
+2024-01-23 11:48:29,893 INFO  BaseTest.java:139 - Include_dropdown button is clicked
+Closed Opportunities is not selected
+2024-01-23 11:48:30,646 INFO  BaseTest.java:139 - RunReport_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:48:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase20" classname="com.automation.tests.scripts.SaleforceProjectLeads" time="10.242">
+    <system-out><![CDATA[2024-01-23 11:48:33,637 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:48:34,479 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:48:34,480 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase20Started******************
+2024-01-23 11:48:34,518 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:48:34,826 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:48:35,156 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:48:35,354 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:48:42,222 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:48:44,721 INFO  BaseTest.java:139 - Leads_tab button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:48:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase21" classname="com.automation.tests.scripts.SaleforceProjectLeads" time="10.904">
+    <failure message="lists don&apos;t have the same size expected [6] but found [16]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: lists don't have the same size expected [6] but found [16]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1629)
+	at org.testng.Assert.assertEquals(Assert.java:1605)
+	at com.automation.tests.scripts.SaleforceProjectLeads.SalesforceTestCase21(SaleforceProjectLeads.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:48:47,086 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:48:50,401 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:48:50,402 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase21Started******************
+2024-01-23 11:48:50,485 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:48:51,123 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:48:51,180 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:48:52,529 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:48:58,777 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:49:00,927 INFO  BaseTest.java:139 - Leads_tab button is clicked
+2024-01-23 11:49:01,008 INFO  BaseTest.java:139 - View_dropdown button is clicked
+All Open Leads
+My Unread Leads
+Recently Viewed Leads
+Today's Leads
+View - Custom 1
+View - Custom 2
+All options are displayed
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:48:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase22" classname="com.automation.tests.scripts.SaleforceProjectLeads" time="9.253">
+    <failure message="stale element reference: stale element not found&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [32acb9133cb530592964b8201ce2bf17, findChildElements {id=7DAB838228045395E8A2C4CF87D1C331_element_64, using=tag name, value=option}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60730}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60730/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 32acb9133cb530592964b8201ce2bf17" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32acb9133cb530592964b8201ce2bf17, findChildElements {id=7DAB838228045395E8A2C4CF87D1C331_element_64, using=tag name, value=option}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60730}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60730/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32acb9133cb530592964b8201ce2bf17
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.support.ui.Select.getOptions(Select.java:76)
+	at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:94)
+	at com.automation.tests.base.BaseTest.selectFromDropdownByVisibleText(BaseTest.java:237)
+	at com.automation.tests.scripts.SaleforceProjectLeads.SalesforceTestCase22(SaleforceProjectLeads.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:49:04,717 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:49:05,783 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:49:05,786 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase22Started******************
+2024-01-23 11:49:05,846 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:49:06,357 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:49:06,762 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:49:06,915 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:49:09,061 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:49:12,660 INFO  BaseTest.java:139 - Leads_tab button is clicked
+2024-01-23 11:49:12,787 INFO  BaseTest.java:139 - View_dropdown button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:49:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase23" classname="com.automation.tests.scripts.SaleforceProjectLeads" time="11.432">
+    <failure message="stale element reference: stale element not found&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0e9d5756725a37614256ec43ec6adbbe, findChildElements {id=D0823665307F950F56BD1EF92719BE2E_element_65, using=tag name, value=option}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60792/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e9d5756725a37614256ec43ec6adbbe" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e9d5756725a37614256ec43ec6adbbe, findChildElements {id=D0823665307F950F56BD1EF92719BE2E_element_65, using=tag name, value=option}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60792/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e9d5756725a37614256ec43ec6adbbe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.support.ui.Select.getOptions(Select.java:76)
+	at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:94)
+	at com.automation.tests.base.BaseTest.selectFromDropdownByVisibleText(BaseTest.java:237)
+	at com.automation.tests.scripts.SaleforceProjectLeads.SalesforceTestCase23(SaleforceProjectLeads.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:49:18,013 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:49:19,294 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:49:19,295 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase23Started******************
+2024-01-23 11:49:19,332 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:49:19,520 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:49:19,720 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:49:20,491 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:49:28,252 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:49:29,267 INFO  BaseTest.java:139 - Leads_tab button is clicked
+2024-01-23 11:49:29,356 INFO  BaseTest.java:139 - View_dropdown button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:49:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase24" classname="com.automation.tests.scripts.SaleforceProjectLeads" time="10.468">
+    <failure message="expected [ABCD] but found [Abcd]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [ABCD] but found [Abcd]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.automation.tests.scripts.SaleforceProjectLeads.SalesforceTestCase24(SaleforceProjectLeads.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:49:34,810 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:49:35,991 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:49:35,992 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase24Started******************
+2024-01-23 11:49:36,044 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:49:36,211 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:49:36,377 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:49:36,869 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:49:39,587 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:49:43,862 INFO  BaseTest.java:139 - Leads_tab button is clicked
+2024-01-23 11:49:44,436 INFO  BaseTest.java:139 - New_button button is clicked
+2024-01-23 11:49:44,545 INFO  BaseTest.java:127 - data is entered in the LastName_box
+2024-01-23 11:49:44,626 INFO  BaseTest.java:127 - data is entered in the CompanyName_box
+2024-01-23 11:49:46,398 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:49:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase25" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="11.71">
+    <system-out><![CDATA[2024-01-23 11:49:51,475 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:49:52,920 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:49:52,925 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase25Started******************
+2024-01-23 11:49:53,069 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:49:53,704 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:49:53,978 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:49:54,111 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:50:02,012 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:50:03,254 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:50:03,781 INFO  BaseTest.java:139 - New_button button is clicked
+2024-01-23 11:50:03,956 INFO  BaseTest.java:127 - data is entered in the LastNmae_box
+2024-01-23 11:50:04,060 INFO  BaseTest.java:127 - data is entered in the AccountName_box
+2024-01-23 11:50:04,635 INFO  BaseTest.java:139 - save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:49:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase26" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="8.109">
+    <system-out><![CDATA[2024-01-23 11:50:07,320 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:50:08,678 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:50:08,678 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase26Started******************
+2024-01-23 11:50:08,714 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:50:08,850 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:50:08,888 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:50:09,761 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:50:11,870 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:50:15,358 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:50:15,920 INFO  BaseTest.java:139 - CreateNewView_link button is clicked
+2024-01-23 11:50:16,019 INFO  BaseTest.java:127 - data is entered in the ViewName_box
+2024-01-23 11:50:16,111 INFO  BaseTest.java:127 - data is entered in the ViewUniqueName_box
+2024-01-23 11:50:16,787 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:50:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase27" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="13.924">
+    <system-out><![CDATA[2024-01-23 11:50:19,740 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:50:20,888 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:50:20,889 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase27Started******************
+2024-01-23 11:50:20,948 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:50:21,066 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:50:21,125 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:50:21,267 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:50:29,847 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:50:31,598 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:50:31,838 INFO  BaseTest.java:139 - RecentlyCreated_dropdown button is clicked
+Recently Created is not selected
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:50:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase28" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="7.95">
+    <system-out><![CDATA[2024-01-23 11:50:39,904 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:50:41,298 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:50:41,345 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase28Started******************
+2024-01-23 11:50:41,720 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:50:42,042 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:50:42,432 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:50:43,037 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:50:45,156 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:50:48,552 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:50:48,694 INFO  BaseTest.java:139 - view_dropdown button is clicked
+My Contacts is not selected
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:50:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase29" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="14.504">
+    <system-out><![CDATA[2024-01-23 11:50:53,190 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:50:54,799 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:50:54,801 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase29Started******************
+2024-01-23 11:50:54,852 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:50:55,003 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:50:55,042 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:50:55,293 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:51:04,845 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:51:06,745 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:51:09,303 INFO  BaseTest.java:139 - ContactName_link button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:50:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase30" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="16.432">
+    <system-out><![CDATA[2024-01-23 11:51:13,296 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:51:14,490 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:51:14,490 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase30Started******************
+2024-01-23 11:51:14,627 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:51:16,021 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:51:16,342 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:51:16,758 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:51:23,510 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:51:25,195 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:51:27,419 INFO  BaseTest.java:139 - CreateNewView_link button is clicked
+2024-01-23 11:51:30,268 INFO  BaseTest.java:127 - data is entered in the ViewUniqueName_box
+2024-01-23 11:51:30,885 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:51:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase31" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="13.93">
+    <system-out><![CDATA[2024-01-23 11:51:34,386 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:51:35,440 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:51:35,452 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase31Started******************
+2024-01-23 11:51:35,538 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:51:36,850 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:51:37,486 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:51:38,178 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:51:40,549 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:51:48,013 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:51:48,630 INFO  BaseTest.java:139 - CreateNewView_link button is clicked
+2024-01-23 11:51:48,747 INFO  BaseTest.java:127 - data is entered in the ViewName_box
+2024-01-23 11:51:48,865 INFO  BaseTest.java:127 - data is entered in the ViewUniqueName_box
+2024-01-23 11:51:49,375 INFO  BaseTest.java:139 - Cancel_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:51:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase32" classname="com.automation.tests.scripts.SalesforceProjectContacts" time="19.004">
+    <system-out><![CDATA[2024-01-23 11:51:53,242 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:51:54,441 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:51:54,443 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase32Started******************
+2024-01-23 11:51:54,571 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:51:55,546 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:51:55,769 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:51:55,859 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:52:02,096 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:52:08,244 INFO  BaseTest.java:139 - Contacts_tab button is clicked
+2024-01-23 11:52:12,549 INFO  BaseTest.java:139 - New_button button is clicked
+2024-01-23 11:52:12,843 INFO  BaseTest.java:127 - data is entered in the LastName_box
+2024-01-23 11:52:12,939 INFO  BaseTest.java:127 - data is entered in the AccountName_box
+2024-01-23 11:52:13,442 INFO  BaseTest.java:139 - SaveandNew_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:51:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase33" classname="com.automation.tests.scripts.SalesforceProjectRandomScenarios" time="15.323">
+    <system-out><![CDATA[2024-01-23 11:52:16,565 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:52:17,382 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:52:17,406 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase33Started******************
+2024-01-23 11:52:17,494 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:52:18,985 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:52:19,026 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:52:19,096 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:52:21,286 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:52:28,982 INFO  BaseTest.java:139 - Home_tab button is clicked
+2024-01-23 11:52:31,044 INFO  BaseTest.java:139 - FirstLastName_link button is clicked
+2024-01-23 11:52:31,167 INFO  BaseTest.java:139 - UserMenuDropdown button is clicked
+2024-01-23 11:52:32,666 INFO  BaseTest.java:139 - MyProfile_option button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:52:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase34" classname="com.automation.tests.scripts.SalesforceProjectRandomScenarios" time="15.816">
+    <system-out><![CDATA[2024-01-23 11:52:36,511 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:52:38,274 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:52:38,278 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase34Started******************
+2024-01-23 11:52:38,409 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:52:39,256 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:52:39,542 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:52:40,031 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:52:46,321 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:52:49,159 INFO  BaseTest.java:139 - Home_tab button is clicked
+2024-01-23 11:52:51,418 INFO  BaseTest.java:139 - FirstLastName_Link button is clicked
+2024-01-23 11:52:51,535 INFO  BaseTest.java:139 - EditProfile_link button is clicked
+2024-01-23 11:52:52,087 INFO  BaseTest.java:171 - Switched toEditProfile_Frame
+2024-01-23 11:52:52,989 INFO  BaseTest.java:139 - About_tab button is clicked
+2024-01-23 11:52:53,142 INFO  BaseTest.java:127 - data is entered in the LastName_box
+2024-01-23 11:52:54,089 INFO  BaseTest.java:139 - SaveAll button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:52:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase35" classname="com.automation.tests.scripts.SalesforceProjectRandomScenarios" time="12.881">
+    <failure message="Cannot locate option with text: Chatter&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with text: Chatter
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.automation.tests.base.BaseTest.selectFromDropdownByVisibleText(BaseTest.java:236)
+	at com.automation.tests.scripts.SalesforceProjectRandomScenarios.SalesforceTestCase35(SalesforceProjectRandomScenarios.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:52:57,057 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:52:58,775 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:52:58,777 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase35Started******************
+2024-01-23 11:52:58,876 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:52:59,963 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:53:00,078 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:53:00,167 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:53:02,730 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:53:09,922 INFO  BaseTest.java:139 - AllTabs button is clicked
+2024-01-23 11:53:11,180 INFO  BaseTest.java:139 - CustomizeMyTab_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:52:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase36" classname="com.automation.tests.scripts.SalesforceProjectRandomScenarios" time="13.227">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Tuesday January 16, 2024&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3857c97e406ab447029ec08d5196acda, findElement {using=link text, value=Tuesday January 16, 2024}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61647/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3857c97e406ab447029ec08d5196acda" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Tuesday January 16, 2024"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3857c97e406ab447029ec08d5196acda, findElement {using=link text, value=Tuesday January 16, 2024}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61647/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3857c97e406ab447029ec08d5196acda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.SalesforceProjectRandomScenarios.SalesforceTestCase36(SalesforceProjectRandomScenarios.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:53:14,356 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:53:15,569 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:53:15,594 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase36Started******************
+2024-01-23 11:53:15,692 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:53:16,427 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:53:16,767 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:53:17,026 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:53:19,144 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:53:28,631 INFO  BaseTest.java:139 - Home_tab button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:53:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase1" classname="com.automation.tests.scripts.SalesforceProjectLogin" time="3.138">
+    <system-out><![CDATA[2024-01-23 11:53:33,123 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:53:35,230 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:53:35,254 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase1Started******************
+2024-01-23 11:53:35,921 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:53:36,717 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:53:37,123 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:53:38,154 INFO  BaseTest.java:139 - Login.button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:53:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase2" classname="com.automation.tests.scripts.SalesforceProjectLogin" time="8.471">
+    <failure message="Fail:TestCase Failed expected [search] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Fail:TestCase Failed expected [search] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.automation.tests.scripts.SalesforceProjectLogin.SalesforceTestCase2(SalesforceProjectLogin.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:53:42,224 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:53:44,312 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:53:44,314 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase2Started******************
+2024-01-23 11:53:44,934 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:53:45,869 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:53:45,937 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:53:46,128 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:53:52,705 INFO  BaseTest.java:139 - Login.button button is clicked
+2024-01-23 11:53:52,741 INFO  BaseTest.java:109 - implicit waitis waited
+
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:53:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase3" classname="com.automation.tests.scripts.SalesforceProjectLogin" time="7.183">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;idcard-identity&apos;]&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d1804c6471668fb7b78c5b3574130c70, findElement {using=xpath, value=//span[@id=&apos;idcard-identity&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61811/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d1804c6471668fb7b78c5b3574130c70" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='idcard-identity']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1804c6471668fb7b78c5b3574130c70, findElement {using=xpath, value=//span[@id='idcard-identity']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61811/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1804c6471668fb7b78c5b3574130c70
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.SalesforceProjectLogin.SalesforceTestCase3(SalesforceProjectLogin.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:53:57,223 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:53:58,191 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:53:58,192 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase3Started******************
+2024-01-23 11:53:58,920 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:53:59,434 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:53:59,495 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:53:59,597 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:53:59,756 INFO  BaseTest.java:139 - Rememberme.checkbox button is clicked
+2024-01-23 11:54:02,266 INFO  BaseTest.java:139 - Login.button button is clicked
+2024-01-23 11:54:05,061 INFO  BaseTest.java:139 - UserMenu.DropDown button is clicked
+2024-01-23 11:54:05,338 INFO  BaseTest.java:139 - Logout.button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:53:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase4A" classname="com.automation.tests.scripts.SalesforceProjectLogin" time="2.953">
+    <system-out><![CDATA[2024-01-23 11:54:11,317 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:54:15,439 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:54:15,456 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase4AStarted******************
+2024-01-23 11:54:16,219 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:54:16,651 INFO  BaseTest.java:139 - forgotpassword.button button is clicked
+2024-01-23 11:54:16,716 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:54:16,827 INFO  BaseTest.java:127 - data is entered in the usernameforgotpasswordpage.textbox
+2024-01-23 11:54:18,346 INFO  BaseTest.java:139 - continue.button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:54:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase4B" classname="com.automation.tests.scripts.SalesforceProjectLogin" time="2.598">
+    <system-out><![CDATA[2024-01-23 11:54:23,895 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:54:24,785 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:54:24,792 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase4BStarted******************
+2024-01-23 11:54:24,841 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:54:24,958 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:54:25,047 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:54:25,784 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:54:27,231 INFO  BaseTest.java:139 - Login.button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:54:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase10" classname="com.automation.tests.scripts.SalesforceProjectCreateAccount" time="18.414">
+    <system-out><![CDATA[2024-01-23 11:54:31,765 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:54:32,828 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:54:32,838 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase10Started******************
+2024-01-23 11:54:33,505 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:54:34,019 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:54:34,725 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:54:35,169 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:54:37,310 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:54:44,535 INFO  BaseTest.java:139 - Accounts_tab button is clicked
+2024-01-23 11:54:45,258 INFO  BaseTest.java:139 - New_button button is clicked
+2024-01-23 11:54:45,411 INFO  BaseTest.java:127 - data is entered in the AccountName_box
+Technology Partner is not selected
+High is not selected
+2024-01-23 11:54:51,242 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:54:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase11" classname="com.automation.tests.scripts.SalesforceProjectCreateAccount" time="19.288">
+    <system-out><![CDATA[2024-01-23 11:54:57,593 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:54:59,122 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:54:59,294 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase11Started******************
+2024-01-23 11:54:59,892 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:55:01,788 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:55:01,886 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:55:02,391 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:55:08,407 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:55:12,518 INFO  BaseTest.java:139 - Accounts_tab button is clicked
+2024-01-23 11:55:16,866 INFO  BaseTest.java:139 - CreateNewView_link button is clicked
+2024-01-23 11:55:17,875 INFO  BaseTest.java:127 - data is entered in the ViewName_box
+2024-01-23 11:55:18,070 INFO  BaseTest.java:127 - data is entered in the ViewUniqueName_box
+2024-01-23 11:55:18,410 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:54:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase12" classname="com.automation.tests.scripts.SalesforceProjectCreateAccount" time="13.324">
+    <system-out><![CDATA[2024-01-23 11:55:24,002 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:55:24,956 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:55:24,965 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase12Started******************
+2024-01-23 11:55:25,127 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:55:26,325 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:55:26,592 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:55:26,683 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:55:32,020 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:55:32,963 INFO  BaseTest.java:139 - Accounts_tab button is clicked
+SudhaD is not selected
+2024-01-23 11:55:33,771 INFO  BaseTest.java:139 - Edit_button button is clicked
+2024-01-23 11:55:33,899 INFO  BaseTest.java:127 - data is entered in the ViewName_box
+Account Name is not selected
+contains is not selected
+2024-01-23 11:55:35,000 INFO  BaseTest.java:127 - data is entered in the value_box
+2024-01-23 11:55:38,286 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:55:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase13" classname="com.automation.tests.scripts.SalesforceProjectCreateAccount" time="14.783">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos; Merge &apos;]&quot;}&#10;  (Session info: chrome=120.0.6099.225)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a7551f5f4fabf905577c51211071767b, findElement {using=xpath, value=//input[@value=&apos; Merge &apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62188/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a7551f5f4fabf905577c51211071767b" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value=' Merge ']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7551f5f4fabf905577c51211071767b, findElement {using=xpath, value=//input[@value=' Merge ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62188/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7551f5f4fabf905577c51211071767b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.SalesforceProjectCreateAccount.SalesforceTestCase13(SalesforceProjectCreateAccount.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:55:44,464 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:55:45,569 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:55:45,584 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase13Started******************
+2024-01-23 11:55:45,726 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:55:47,659 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:55:47,745 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:55:49,039 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:55:54,084 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:55:55,085 INFO  BaseTest.java:139 - Accounts_tab button is clicked
+2024-01-23 11:55:56,781 INFO  BaseTest.java:139 - MergeAccounts_link button is clicked
+2024-01-23 11:55:56,894 INFO  BaseTest.java:127 - data is entered in the AccountName_box
+2024-01-23 11:55:59,828 INFO  BaseTest.java:139 - FindAccounts_button button is clicked
+2024-01-23 11:56:00,295 INFO  BaseTest.java:139 - Next_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:55:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="SalesforceTestCase14" classname="com.automation.tests.scripts.SalesforceProjectCreateAccount" time="24.093">
+    <failure message="no such alert&#10;  (Session info: chrome=120.0.6099.225)&#10;Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c6a9127ff514930eeb4ee97d41fd31f5, getAlertText {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62252/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c6a9127ff514930eeb4ee97d41fd31f5" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6a9127ff514930eeb4ee97d41fd31f5, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sudha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62252/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6a9127ff514930eeb4ee97d41fd31f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1192)
+	at com.automation.tests.base.BaseTest.SwitchToAlertEnterText(BaseTest.java:277)
+	at com.automation.tests.scripts.SalesforceProjectCreateAccount.SalesforceTestCase14(SalesforceProjectCreateAccount.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2024-01-23 11:56:02,869 INFO  BaseTest.java:88 - Chrome driver is launched
+2024-01-23 11:56:03,985 INFO  BaseTest.java:103 - https://login.salesforce.com/is entered
+2024-01-23 11:56:03,991 INFO  BaseTest.java:80 - ********login to Salesforce AppicationTestCase14Started******************
+2024-01-23 11:56:04,031 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:56:04,158 INFO  BaseTest.java:127 - data is entered in the UserName.textbox
+2024-01-23 11:56:04,472 INFO  BaseTest.java:151 - data is cleared in the Password.textbox
+2024-01-23 11:56:04,788 INFO  BaseTest.java:127 - data is entered in the Password.textbox
+2024-01-23 11:56:13,653 INFO  BaseTest.java:139 - login.button button is clicked
+2024-01-23 11:56:19,094 INFO  BaseTest.java:139 - Accounts_tab button is clicked
+2024-01-23 11:56:23,619 INFO  BaseTest.java:139 - AcctWithLastActivity_link button is clicked
+2024-01-23 11:56:23,793 INFO  BaseTest.java:139 - DateField_dropdown button is clicked
+2024-01-23 11:56:26,125 INFO  BaseTest.java:139 - CreateDate_link button is clicked
+2024-01-23 11:56:26,681 INFO  BaseTest.java:139 - From_Calender button is clicked
+2024-01-23 11:56:26,755 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:56:27,166 INFO  BaseTest.java:139 - TodaysDate_FromCal button is clicked
+2024-01-23 11:56:27,267 INFO  BaseTest.java:139 - To_calender button is clicked
+2024-01-23 11:56:27,317 INFO  BaseTest.java:109 - implicit waitis waited
+2024-01-23 11:56:27,404 INFO  BaseTest.java:139 - TodaysDate_ToCal button is clicked
+2024-01-23 11:56:27,552 INFO  BaseTest.java:139 - Save_button button is clicked
+]]></system-out>
+    <system-err><![CDATA[Jan 23, 2024 11:56:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+</testsuite>
